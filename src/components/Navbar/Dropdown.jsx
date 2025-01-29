@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Dropdown = () => {
   return (
     <div className=" relative group cursor-pointer">
-      <Link className=" dropdown flex items-center ">
+      <Link className=" dropdown flex items-center text-xl ">
         <span>Quik Links</span>
         <span>
           <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
