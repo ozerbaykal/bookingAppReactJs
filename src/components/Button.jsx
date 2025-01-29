@@ -4,7 +4,7 @@ const Button = ({ item }) => {
       className="bg-gradient-to-r from-primary to-secondary 
     hover:from-secondary hover:to-primary 
     transition-all duration-500 
-    text-white px-3 py-1 rounded-full"
+    text-white px-4 py-1 rounded-full hover:scale-105"
     >
       {item}
     </button>

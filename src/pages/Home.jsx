@@ -1,9 +1,10 @@
 import MovieBackround from "../assets/videos/video1.mp4";
+import Hero from "../components/Hero";
 const Home = () => {
   return (
     <>
       <div>
-        <div>
+        <div className="relative h-[700px]">
           <video
             autoPlay
             loop
@@ -12,6 +13,7 @@ const Home = () => {
           >
             <source src={MovieBackround} />
           </video>
+          <Hero />
         </div>
       </div>
     </>
