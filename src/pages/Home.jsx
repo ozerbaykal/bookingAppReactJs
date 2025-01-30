@@ -1,5 +1,10 @@
 import MovieBackround from "../assets/videos/video1.mp4";
+import BannerPic from "../components/BannerImg/BannerImg";
 import Hero from "../components/Hero";
+import Places from "../components/Places";
+import img from "../assets/images/banner2.jpg";
+import BlogsComp from "../components/BlogsComp";
+import Banner from "../components/Banner";
 const Home = () => {
   return (
     <>
@@ -15,6 +20,10 @@ const Home = () => {
           </video>
           <Hero />
         </div>
+        <Places />
+        <BannerPic img={img} />
+        <BlogsComp />
+        <Banner />
       </div>
     </>
   );

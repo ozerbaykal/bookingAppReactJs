@@ -1,7 +1,7 @@
 import Img1 from "../assets/images/image2.avif"
 import Img2 from "../assets/images/image3.webp"
 import Img3 from "../assets/images/lasvegas.jpg"
-import Img4 from "../assets/images/losangles"
+import Img4 from "../assets/images/losangles.png"
 import Img5 from "../assets/images/sdneey.avif"
 import Img6 from "../assets/images/tacmahal.jpg"
 import Img7 from "../assets/images/underwater.webp"
@@ -58,7 +58,7 @@ export const PlacesData = [
         type: "Cultural & Historical",
     },
     {
-        img: Img2,
+        img: Img7,
         title: "Great Barrier Reef",
         location: "Australia",
         description: "Explore the world’s largest coral reef system, home to diverse marine life and breathtaking underwater scenery.",
@@ -91,3 +91,33 @@ export const PlacesData = [
     },
 
 ];
+export const BlogsData = [
+    {
+        id: 1,
+        image: Img6,
+        title: "Hindistan'da Gezilecek En İyi Yerler",
+        description:
+            "Hindistan, tarihi ve kültürel mirasıyla dünyanın en büyüleyici destinasyonlarından biridir. Tac Mahal, Jaipur’un pembe şehir sokakları, Varanasi’nin kutsal Ganj Nehri ve Kerala’nın sakin arka su yolları mutlaka görülmesi gereken yerler arasındadır. Hindistan, doğası, mutfağı ve tarihi yapılarıyla her ziyaretçiye unutulmaz anılar sunar.",
+        author: "Ahmet Yılmaz",
+        date: "Ocak 15, 2025",
+    },
+    {
+        id: 2,
+        image: Img3,
+        title: "Amerika'da Gezilecek En İyi Yerler",
+        description:
+            "ABD, geniş coğrafyası ve farklı kültürel yapısıyla keşfedilmeyi bekleyen birçok harika destinasyona sahiptir. New York’taki Times Square ve Central Park’tan, Kaliforniya’daki Büyük Kanyon ve Yosemite Ulusal Parkı’na kadar pek çok eşsiz doğa ve şehir manzarası sunar. Miami’nin sahilleri, San Francisco’nun Golden Gate Köprüsü ve Las Vegas’ın renkli gece hayatı da mutlaka görülmeli.",
+        author: "Elif Demir",
+        date: "Şubat 10, 2025",
+    },
+    {
+        id: 3,
+        image: Img1,
+        title: "Japonya'da Gezilecek En İyi Yerler",
+        description:
+            "Japonya, geleneksel ve modern kültürün eşsiz bir birleşimini sunar. Tokyo’nun hareketli caddeleri, Kyoto’nun tarihi tapınakları ve Fuji Dağı’nın büyüleyici manzarası ziyaretçilere unutulmaz bir deneyim yaşatır. Osaka’nın ünlü mutfağı ve Hiroşima Barış Anıtı da keşfedilmesi gereken noktalar arasındadır.",
+        author: "Mehmet Kaya",
+        date: "Mart 5, 2025",
+    },
+];
+

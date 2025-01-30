@@ -11,7 +11,11 @@ const Hero = () => {
           {/* text content */}
           <TextContent />
           {/* form */}
-          <div className="bg-white space-y-4 rounded-md p-4 relative">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="600"
+            className="bg-white space-y-4 rounded-md p-4 relative"
+          >
             <Form />
 
             <div

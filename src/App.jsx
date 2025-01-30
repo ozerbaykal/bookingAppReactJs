@@ -6,6 +6,13 @@ import BlogsDetails from "./pages/BlogsDetails";
 import PlacesRoute from "./pages/PlacesRoute";
 import Nopage from "./pages/Nopage";
 import Home from "./pages/Home";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init({
+  duration: 1000, // Animasyon süresi (ms)
+  once: true, // Animasyonun sadece bir kez çalışmasını sağlar
+});
 
 const App = () => {
   return (

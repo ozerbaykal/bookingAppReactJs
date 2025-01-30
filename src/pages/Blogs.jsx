@@ -1,7 +1,12 @@
 import React from "react";
+import BlogsComp from "../components/BlogsComp";
 
 const Blogs = () => {
-  return <div>Blogs</div>;
+  return (
+    <div className="min-h-screen pt-12 bg-gray-200 ">
+      <BlogsComp />
+    </div>
+  );
 };
 
 export default Blogs;
