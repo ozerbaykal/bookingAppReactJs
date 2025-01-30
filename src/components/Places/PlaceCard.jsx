@@ -7,13 +7,13 @@ const PlaceCard = ({
   description,
   price,
   type,
-  //handleOrderPopup,
+  handleOrderPopup,
 }) => {
   return (
     <>
       <div
         className="shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white cursor-pointer"
-        //onClick={handleOrderPopup}
+        onClick={handleOrderPopup}
       >
         <div className="overflow-hidden">
           <img

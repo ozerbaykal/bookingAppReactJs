@@ -8,7 +8,7 @@ import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
 import { useState } from "react";
 import ResponsiveMenu from "./ResponsiveMenu";
 
-const Navbar = () => {
+const Navbar = ({ handleOrderPopup }) => {
   const [showMenu, setShowMenu] = useState(false);
 
   const toogleMenu = () => {
@@ -41,7 +41,7 @@ const Navbar = () => {
 
             {/* BookNow Button */}
             <div className="flex items-center gap-4">
-              <Button item={"Book Now"} />
+              <Button item={"Book Now"} handleOrderPopup={handleOrderPopup} />
 
               {/* Mobile Hamburger Menu */}
               <div className="md:hidden block">

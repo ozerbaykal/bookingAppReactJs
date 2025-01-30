@@ -7,7 +7,14 @@ import img2 from "../assets/images/banner3.jpg";
 import BlogsComp from "../components/BlogsComp";
 import Banner from "../components/Banner";
 import Testimonial from "../components/Testimonial";
+import Popup from "../components/PopUp";
+import { useState } from "react";
 const Home = () => {
+  const [orderPopup, setOrderPopup] = useState(false);
+
+  const handleOrderPopup = () => {
+    setOrderPopup(!orderPopup);
+  };
   return (
     <>
       <div>
@@ -22,12 +29,13 @@ const Home = () => {
           </video>
           <Hero />
         </div>
-        <Places />
+        <Places handleOrderPopup={handleOrderPopup} />
         <BannerPic img={img} />
         <BlogsComp />
         <Banner />
         <BannerPic img={img2} />
         <Testimonial />
+        <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
       </div>
     </>
   );

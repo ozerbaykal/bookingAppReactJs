@@ -1,6 +1,7 @@
-const Button = ({ item }) => {
+const Button = ({ item, handleOrderPopup }) => {
   return (
     <button
+      onClick={() => handleOrderPopup()}
       className="bg-gradient-to-r from-primary to-secondary 
     hover:from-secondary hover:to-primary 
     transition-all duration-500 

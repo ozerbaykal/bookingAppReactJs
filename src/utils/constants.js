@@ -1,5 +1,4 @@
 import Img1 from "../assets/images/image2.avif"
-import Img2 from "../assets/images/image3.webp"
 import Img3 from "../assets/images/lasvegas.jpg"
 import Img4 from "../assets/images/losangles.png"
 import Img5 from "../assets/images/sdneey.avif"
@@ -158,5 +157,20 @@ export const FooterLinksData = [
         link: "/blogs",
     },
 ];
+export const PopUpInputData = [
+    {
+        type: "text",
+        placeholder: "Name"
+    },
+    {
+        type: "email",
+        placeholder: "email"
+    },
+    {
+        type: "text",
+        placeholder: "Address"
+    }
+
+]
 
 

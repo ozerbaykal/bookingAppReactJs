@@ -4,7 +4,7 @@ import About from "./pages/About";
 import Blogs from "./pages/Blogs";
 import BlogsDetails from "./pages/BlogsDetails";
 import PlacesRoute from "./pages/PlacesRoute";
-import Nopage from "./pages/Nopage";
+import Nopage from "./pages/ErrorPage";
 import Home from "./pages/Home";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -26,7 +26,7 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/blogs/:id" element={<BlogsDetails />} />
-            <Route path="/places" element={<PlacesRoute />} />
+            <Route path="/best-places" element={<PlacesRoute />} />
             <Route path="*" element={<Nopage />} />
           </Route>
         </Routes>

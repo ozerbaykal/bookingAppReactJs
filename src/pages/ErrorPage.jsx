@@ -1,7 +1,7 @@
 import React from "react";
 
-const Nopage = () => {
+const ErrorPage = () => {
   return <div>Nopage</div>;
 };
 
-export default Nopage;
+export default ErrorPage;

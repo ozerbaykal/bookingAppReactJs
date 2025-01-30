@@ -2,7 +2,7 @@ import React from "react";
 import PlaceCard from "./PlaceCard";
 import { PlacesData } from "../../utils/constants";
 
-const Places = () => {
+const Places = ({ handleOrderPopup }) => {
   return (
     <>
       <div className="dark:bg-gray-900 dark:text-white bg-gray-50 py-10">
@@ -13,7 +13,7 @@ const Places = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {PlacesData.map((item, index) => (
               <PlaceCard
-                //handleOrderPopup={handleOrderPopup}
+                handleOrderPopup={handleOrderPopup}
                 key={index}
                 {...item}
               />
