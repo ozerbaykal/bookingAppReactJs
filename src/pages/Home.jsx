@@ -3,8 +3,10 @@ import BannerPic from "../components/BannerImg/BannerImg";
 import Hero from "../components/Hero";
 import Places from "../components/Places";
 import img from "../assets/images/banner2.jpg";
+import img2 from "../assets/images/banner3.jpg";
 import BlogsComp from "../components/BlogsComp";
 import Banner from "../components/Banner";
+import Testimonial from "../components/Testimonial";
 const Home = () => {
   return (
     <>
@@ -24,6 +26,8 @@ const Home = () => {
         <BannerPic img={img} />
         <BlogsComp />
         <Banner />
+        <BannerPic img={img2} />
+        <Testimonial />
       </div>
     </>
   );

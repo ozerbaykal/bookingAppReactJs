@@ -8,6 +8,8 @@ import Nopage from "./pages/Nopage";
 import Home from "./pages/Home";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 AOS.init({
   duration: 1000, // Animasyon süresi (ms)

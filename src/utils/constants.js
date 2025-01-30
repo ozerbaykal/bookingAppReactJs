@@ -120,4 +120,43 @@ export const BlogsData = [
         date: "Mart 5, 2025",
     },
 ];
+export const testimonialData = [
+    {
+        id: 1,
+        name: "Samuel Carter",
+        text: "Bu platform sayesinde hayal ettiğim tatili planladım. Tüm süreç son derece kolay ve keyifliydi. Kesinlikle tavsiye ederim!",
+        img: "https://picsum.photos/101/101",
+    },
+    {
+        id: 2,
+        name: "John Doe",
+        text: "Harika bir müşteri hizmeti deneyimi yaşadım. Rezervasyon sürecinde tüm sorularım hızlıca yanıtlandı ve mükemmel bir tatil geçirdim!",
+        img: "https://picsum.photos/102/102",
+    },
+    {
+        id: 3,
+        name: "Emily Smith",
+        text: "Tatilimi burada planlamak en iyi kararımdı! Oteller ve aktiviteler hakkında detaylı bilgiye ulaşmak çok kolaydı.",
+        img: "https://picsum.photos/103/103",
+    },
+];
+export const FooterLinks = [
+    {
+        title: "Home",
+        link: "/",
+    },
+    {
+        title: "About",
+        link: "/about",
+    },
+    {
+        title: "Best Places",
+        link: "/best-places",
+    },
+    {
+        title: "Blogs",
+        link: "/blogs",
+    },
+];
+
 
