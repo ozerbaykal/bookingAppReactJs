@@ -140,7 +140,7 @@ export const testimonialData = [
         img: "https://picsum.photos/103/103",
     },
 ];
-export const FooterLinks = [
+export const FooterLinksData = [
     {
         title: "Home",
         link: "/",
