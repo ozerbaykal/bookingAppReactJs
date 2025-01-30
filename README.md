@@ -42,7 +42,7 @@ Booking App is a modern and user-friendly holiday booking application developed 
 
 ![](./src/assets/screenShots/aboutUs.png)
 
-## ⚡ Technologies
+## Technologies
 
 Key technologies and libraries used in this project:
 
@@ -58,7 +58,7 @@ Key technologies and libraries used in this project:
 
 - AOS (Animate on Scroll) - For scroll animations
 
-## 🌐 Features
+### Features
 
 - User-friendly and modern interface
 
@@ -72,7 +72,7 @@ Key technologies and libraries used in this project:
 
 - Animated and interactive components
 
-## 🛠 Installation
+### Installation
 
 To clone and run the project on your local machine:
 
@@ -100,7 +100,7 @@ npm install
 npm run dev
 ```
 
-## 🔧 Usage
+### 🔧 Usage
 
 - View popular destinations on the homepage.
 
@@ -108,7 +108,7 @@ npm run dev
 
 - Enjoy an intuitive experience with a user-friendly interface and animations.
 
-## 👨‍💻 Developer
+## Developer
 
 Özer Baykal
 
