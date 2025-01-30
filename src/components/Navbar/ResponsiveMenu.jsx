@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { BarLinks } from "../../utils/constants";
 
 const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
-  console.log("showMenu", showMenu);
   return (
     <div
       className={`${

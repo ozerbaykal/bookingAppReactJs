@@ -14,9 +14,9 @@ const Footer = () => {
             <FooterLeft />
             {/* Footer right section */}
             <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">
-              <FooterLinks />
-              <FooterLinks />
-              <FooterLinks />
+              <FooterLinks title="Travellers" />
+              <FooterLinks title="Informations" />
+              <FooterLinks title="Connections" />
             </div>
           </div>
           <div>
